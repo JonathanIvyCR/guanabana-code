@@ -1,0 +1,47 @@
+name: guanabana
+description: A Flutter Puzzle Hack Submission.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  matrix2d: ^1.0.2
+  screenshot: ^1.2.3
+  provider: ^6.0.2
+  get_it: ^7.2.0
+  after_layout: ^1.1.0
+  auto_size_text: ^3.0.0
+  sprung:
+  simple_animations: ^4.0.1
+  flutter_sequence_animation: ^4.0.0-nullsafety
+  pausable_timer: ^1.0.0+4
+  flame_audio: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/audio/
+  fonts:
+  
+    - family: LuckiestGuy
+      fonts:
+        - asset: fonts/LuckiestGuy-Regular.ttf
+
